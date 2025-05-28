@@ -387,7 +387,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 3rem;
-  padding-top: 1.5rem;
+  padding-tozp: 1.5rem;
   position: relative;
 }
 
@@ -561,8 +561,8 @@ body {
   }
 
   .image-container {
-    width: 180px;
-    height: 180px;
+    width: 260px;
+    height: 260px;
   }
 
   .description-title {
@@ -642,8 +642,8 @@ body {
   }
 
   .image-container {
-    width: 150px;
-    height: 150px;
+    width: 260px;
+    height: 260px;
   }
 
   .detail-text {
@@ -766,8 +766,8 @@ body {
   }
 
   .image-container {
-    width: 130px;
-    height: 130px;
+    width: 220px;
+    height: 220px;
     border-width: 2px;
   }
 
