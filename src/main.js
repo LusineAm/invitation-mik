@@ -28,7 +28,7 @@ const renderContent = () => {
       <div class="photo-gallery">
         <div class="photo-row">
           <div class="image-container">
-            <img src="${getImageUrl('mik-3.JPG')}" alt="Mikael's Photo 1" class="invitation-image">
+            <img src="${getImageUrl('2.jpg')}" alt="Mikael's Photo 1" class="invitation-image">
           </div>
           <div class="photo-description">
             <h3 class="description-title">${lang.baptism}</h3>
@@ -37,30 +37,37 @@ const renderContent = () => {
 
         <div class="photo-row reverse">
           <div class="image-container">
-            <img src="${getImageUrl('mik-2.JPG')}" alt="Mikael's Photo 2" class="invitation-image">
+            <img src="${getImageUrl('1.jpg')}" alt="Mikael's Photo 2" class="invitation-image">
           </div>
           <div class="photo-description">
             <h3 class="description-title">${lang.birthday}</h3>
           </div>
         </div>
+        <h2 class="subtitle">${lang.date}</h2>
 
         <div class="photo-row">
           <div class="image-container">
-            <img src="${getImageUrl('mik-1.JPG')}" alt="Mikael's Photo 3" class="invitation-image">
+            <img src="${getImageUrl('gayane.jpg')}" alt="st gayane church" class="invitation-image">
+          </div>
+          <div class="photo-description">
+             
+              <div class="detail-text">
+                <h2 class="time-text">${lang.churchTime}</h2>
+                <h3 class="venue-name">${lang.church}</h3>
+              </div>
+            </div>
+        </div>
+        <div class="photo-row reverse">
+           <div class="image-container">
+            <img src="${getImageUrl('liana.jpg')}" alt="lianna garden" class="invitation-image">
           </div>
           <div class="photo-description">
               <div class="detail-text">
-                <p class="date-text">${lang.date}</p>
-              </div>
-              <div class="detail-text">
-                <h3 class="venue-name">${lang.church}</h3>
-                <p class="time-text">${lang.churchTime}</p>
-              </div>
-              <div class="detail-text">
+                <h2 class="time-text">${lang.restaurantTime}</h2>
                 <h3 class="venue-name">${lang.restaurant}</h3>
-                <p class="time-text">${lang.restaurantTime}</p>
               </div>
             </div>
+           
         </div>
       </div>
       <div class="invitation-footer">
