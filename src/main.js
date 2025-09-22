@@ -20,7 +20,7 @@ const renderContent = () => {
       </div>
 
       <div class="invitation-header">
-        <div class="header-decoration"></div>
+        <img src="${getImageUrl('pigeon.png')}" alt="Photo 1" class="pigeon">
         <h1 class="elegant-title">${lang.title}</h1>
         <h2 class="subtitle">${lang.subtitle}</h2>
         <div class="header-decoration"></div>
